@@ -29,3 +29,6 @@ git diff --staged
 git diff commit1 commit2
 - diff between commit1 and commit2, commit2 is the commit to analyze
 
+How can you use the staging area to make sure you have one commit per logical change?
+- use git diff --staged to check what would be content of a commit
+- use git reset <file> to revert staged file
