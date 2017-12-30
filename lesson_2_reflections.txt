@@ -1,0 +1,21 @@
+What happens when you initialize a repository? Why do you need to do it?
+to init a git repo: git init
+- no commits are created
+- repo is prepared but nothin will be tracked
+- each file that should be tracked has to be added by: git add <file>
+
+to config name for commits set: git config --global user.name "Sebastian Fräßdorf"
+to config email for commits set: git config --global user.email "sebastian.fraessdorf@gmail.com"
+
+to commit changes to all files use: git commit -a
+- configured editor will open to add commit message
+- after closing editor commit will be done
+
+to remove a file from the stage area use: git reset <file>
+- file will not deleted only unstaged
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- the working directory contains all files in certain state
+- in the working directory you checkout the files of a commit you want
+- the staging area is a kind of virtual environment to stage changes of files
+
