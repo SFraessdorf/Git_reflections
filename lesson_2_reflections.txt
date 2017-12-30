@@ -19,3 +19,13 @@ How is the staging area different from the working directory and the repository?
 - in the working directory you checkout the files of a commit you want
 - the staging area is a kind of virtual environment to stage changes of files
 
+Different versions of git diff
+git diff
+- diff between working directory and staging area
+
+git diff --staged
+- diff between staging area and most recent commit
+
+git diff commit1 commit2
+- diff between commit1 and commit2, commit2 is the commit to analyze
+
