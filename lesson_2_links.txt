@@ -1,0 +1,2 @@
+Styleguide for commit messages
+http://udacity.github.io/git-styleguide/
