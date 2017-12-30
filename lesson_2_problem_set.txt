@@ -1,0 +1,7 @@
+Quiz 11:
+commit ID without bug: 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+commit ID introducing the bug: 547f4171a82ec6429d002c1acef357aec41d3f17
+
+Quiz 13:
+commit ID without bug: 746f762e38b5bbb7d0b837464ef6ec3f8ee5bf91
+commit ID introducing the bug: 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a

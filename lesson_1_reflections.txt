@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file 
+help you see the bug that was introduced?
+- it shows teh differences compared on lines
+ -> easy to identify changes
+- use under windows shell command "fc [filename 1] [filename 2]"
+
+How could having easy access to the entire history of a file make 
+you a more efficient programmer in the long term?
+- get fast access on history of document
+- fast analysis and bug finding
+- go back very fast to older versions
+
+What do you think are the pros and cons of manually choosing when 
+to create a commit, like you do in Git, vs having versions 
+automatically saved, like Google Docs does?
+- pros
+ - version is created when I did it -> my decision
+ - all versions are like I wanted it
+ - I can do logical versions
+
+- con
+ - loss of changes since last commit by chrashes
+ - I'm responsible for versioning/commits
+
+ Why do you think some version control systems, like Git, 
+ allow saving multiple files in one commit, while others, 
+ like Google Docs, treat each file separately?
+ - a product often consists of multiple files, 
+ so you need the version control for all files and not separately
+ - logical changes could need changes across multiple files
+
+ Quiz diff commits
+ revert control commit: b0678b161fcf74467ed3a63110557e3d6229cfa6
+ commit before: f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+ How can you use the commands git log and git diff to view the history of files?
+ - go into repository with cd
+ - command to see log of a repository: git log
+ - scroll down with arrow down/up button
+ - compare two commits use: git diff [commit ID original] [commit ID new version (to analyse)]
+ - use arrow down/up as well for paging
+ - command to stop viewing git log output, press q 
+ (which stands for quit).: q
+ - command for colouring diffs  git config --global color.ui auto 
+
+ How to start sublime text editor in gitBash: subl (old)
+ How to start notepad++ text editor in gitBash: note
+
+ How might using version control make you more confident to make 
+ changes that could break something?
+- Use: git checkout [commitID] to get to a certain version of code
+- after checkout you can test/run the code/tool and test it 
