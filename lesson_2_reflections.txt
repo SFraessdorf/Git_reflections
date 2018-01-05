@@ -41,4 +41,15 @@ How do the diagrams help you visualize the branch structure?
 - create always a new branch before starting on a new context like a bugfix, new feature or what ever
 - use: git log --graph --oneline master <branchX> <branchY>
  - displays branch diagram and the relationships of the commits
+ 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- by merging both branches will be combined, each commit is ordered by timestamp
+- after a merge of a branch, the branch can be investigated in the master branch
+- create a branch before make changes
+- normally checkout master branch and than call: git merge <branch-name-to-merge>
+- after a successful merge the merge branch can be deleted with: git branch -d <branch-name>
+- if a merge does not work you get a merge conflict
+- do revert/cancel a merge use: git merge --abort
+- to compare a commit with its parent use: git show <commitID>
+- after a merge not each ordered commit is a parent of its predeseccor
 
