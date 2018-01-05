@@ -53,3 +53,9 @@ What is the result of merging two branches together? Why do we represent it in t
 - to compare a commit with its parent use: git show <commitID>
 - after a merge not each ordered commit is a parent of its predeseccor
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- git merges all lines they are obvious automatically
+- if a merge is not obvous git shows merge conflicts, so you have to solve the conslicts manually
+- this ensures to speak with the colleague who did changes
+- git does not try to merge stuff that is not obvious so no unexpected behavior will be created by automatical merge.
+
