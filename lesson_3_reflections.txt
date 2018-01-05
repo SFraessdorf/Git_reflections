@@ -1,1 +1,3 @@
-
+When would you want to use a remote repository rather than keeping all your work local?
+- to store the work on a safe
+- to ensure to work with other colleagues or people or contributors
