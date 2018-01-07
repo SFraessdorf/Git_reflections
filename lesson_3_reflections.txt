@@ -5,3 +5,8 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 - I want to decide when it is the best point of time to sync
 
+How to sync with remote repository
+- checkout branch what has to be synced
+- to sync local changes to remote repo use: git push <remote repository, normally origin> <branch-name>
+- checkout branch what has to be synced
+- to get remote changes to local repo use: git pull <remote repository, normally origin> <branch-name>
