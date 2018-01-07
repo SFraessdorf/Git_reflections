@@ -3,3 +3,7 @@ http://udacity.github.io/git-styleguide/
 
 Help to handle different end of line interpretation between Unix and Windows systems
 https://help.github.com/articles/dealing-with-line-endings/#platform-all
+
+Tools for diagrams
+https://yuml.me/diagram/activity/draw
+https://www.gliffy.com/
