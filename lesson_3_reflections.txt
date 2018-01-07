@@ -10,3 +10,8 @@ How to sync with remote repository
 - to sync local changes to remote repo use: git push <remote repository, normally origin> <branch-name>
 - checkout branch what has to be synced
 - to get remote changes to local repo use: git pull <remote repository, normally origin> <branch-name>
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+- fork is a GitHub specific clone of a repo, fork is not git dependent
+- clone is a copy of a repo like remote <-> remote, remote <-> local, local <-> local
+- a branch is a logical part of a repo to categorize a logical change. Branches you can merge to other branchs 
