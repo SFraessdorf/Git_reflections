@@ -25,3 +25,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 - before I got to know git I've used svn
 - with svn it is not easier to collaborate, it is always harder, there is no possibility to do things like pull requests
 - to collaborate with others without GitHub it would be very hard to sync
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+- always I would prefer changes via branches, so you can ensure always a stable master branch
+- via branches and pull requests you can ensure that others review your changes
+- working direct on master is perhaps faster because you need no review/PR by another colleagues.
