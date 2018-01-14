@@ -20,3 +20,8 @@ What is the benefit of having a copy of the last known state of the remote store
 - so you know what changes and branches exist on remote
 - you can identify changes by others
 - you can decide what and where to merge, if wanted
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- before I got to know git I've used svn
+- with svn it is not easier to collaborate, it is always harder, there is no possibility to do things like pull requests
+- to collaborate with others without GitHub it would be very hard to sync
