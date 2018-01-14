@@ -14,4 +14,9 @@ How to sync with remote repository
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 - fork is a GitHub specific clone of a repo, fork is not git dependent
 - clone is a copy of a repo like remote <-> remote, remote <-> local, local <-> local
-- a branch is a logical part of a repo to categorize a logical change. Branches you can merge to other branchs 
+- a branch is a logical part of a repo to categorize a logical change. Branches you can merge to other branchs
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- so you know what changes and branches exist on remote
+- you can identify changes by others
+- you can decide what and where to merge, if wanted
